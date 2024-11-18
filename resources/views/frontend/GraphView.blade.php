@@ -10,11 +10,14 @@
                 <h2 class="text-start fs-5 mb-2 font-semibold">
                     Select Operation Of Data
                 </h2>
-                <div>
-                    <select name="operation" class="form-select form-select-md mb-3" aria-label=".form-select-md example">
+                <div class="d-flex">
+                    <select name="operation" class="form-select form-select-md mb-3 me-3" aria-label=".form-select-md example">
                         <option value="countries">Countries</option>
                         <option value="tariff">Tariff</option>
-                        <option value="companies">Companies</option>
+                    </select>
+                    <select name="operation" class="form-select form-select-md mb-3" aria-label=".form-select-md example">
+                        <option value="countries">Weight</option>
+                        <option value="tariff">FOB</option>
                     </select>
                 </div>
             </div>
